@@ -8,7 +8,7 @@ function [component] = eos(state,molecule,equation)
 % Lizandro de Sousa Santos (lizandrosousa@id.uff.br)
 % or lizandrossantos@gmail.com
 
-% INPUT
+% INPUT:
 
 % state: state.T -> actual temperature
 %        state.P -> actual pressure
