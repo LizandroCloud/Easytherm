@@ -6,7 +6,7 @@ function [component] = eos(state,molecule,equation)
 % Revision: 1.0 $ $ Date: 2018/01/11 18:01 $
 %          
 % Lizandro de Sousa Santos (lizandrosousa@id.uff.br)
-% By NEO - Núcleo de Estudos de Otimização
+% By NEO - Nï¿½cleo de Estudos de Otimizacao
 % https://neouff.wixsite.com/home
 
 % INPUT
