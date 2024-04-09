@@ -2,7 +2,7 @@
 
 function [Hr,Sr] = residual(state,molecule,equation)
 
-% Routine for Calculating Thermodynamic Properties (Residual Properties)
+% Routine for Calculating Thermodynamic Properties (Residual Properties for Pure Substances)
 % Copyright (c) 2018 by UFF-TEQ-NEO - Universidade Federal Fluminense - Niteroi
 % Revision: 1.0 $ $ Date: 2018/01/11 17:35 $
 %          
