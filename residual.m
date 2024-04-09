@@ -2,12 +2,12 @@
 
 function [Hr,Sr] = residual(state,molecule,equation)
 
-% Routine for Calculating Thermodynamic Properties
+% Routine for Calculating Thermodynamic Properties (Residual Properties for Pure Substances)
 % Copyright (c) 2018 by UFF-TEQ-NEO - Universidade Federal Fluminense - Niteroi
 % Revision: 1.0 $ $ Date: 2018/01/11 17:35 $
 %          
 % Lizandro de Sousa Santos (lizandrosousa@id.uff.br)
-% By NEO - Núcleo de Estudos de Otimização
+% By NEO - Nï¿½cleo de Estudos de Otimizaï¿½ï¿½o
 % https://neouff.wixsite.com/home
 
 % INPUT
@@ -20,7 +20,8 @@ function [Hr,Sr] = residual(state,molecule,equation)
 %                                  rk for Redlick Kwong,
 %                                  srk for Soave/Redlich/Kwong, 
 %                                  pr for Peng Robinson
-%                                  gc for generalized correlations                          
+%                                  gc for generalized correlations   
+
 
 
 [Tc,Pc,Vc,Zc,w] = termodata(molecule,state); % accessing the thermodynamic data library...
