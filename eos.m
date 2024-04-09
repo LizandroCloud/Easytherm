@@ -4,6 +4,8 @@ function [component] = eos(state,molecule,equation)
 % Routine for Calculating Thermodynamic Properties
 % Copyright (c) 2018 by UFF-TEQ-NEO - Universidade Federal Fluminense - Niteroi
 % Revision: 1.0 $ $ Date: 2018/01/11 18:01 $
+% Last modification: aphril 2022
+
 %          
 % Lizandro de Sousa Santos (lizandrosousa@id.uff.br)
 % or lizandrossantos@gmail.com
